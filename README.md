@@ -319,7 +319,6 @@ Python - Linguagem de programação
 
 Reportar Bug • Solicitar Feature
 
-</div>
 Python 3.8 ou superior
 
 pip (gerenciador de pacotes Python)
