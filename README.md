@@ -63,20 +63,7 @@ Estatísticas Detalhadas: Monitora progresso e tipos processados
 👨‍💻 Autor
 Criado por Artenio Reis
 
-🙏 Agradecimentos
-Flask - Framework web
-
-Scikit-learn - Machine Learning
-
-NLTK - Processamento de Linguagem Natural
-
-Python - Linguagem de programação
-
 
 ⭐ Se este projeto foi útil, deixe uma estrela no GitHub!
 
-Reportar Bug • Solicitar Feature
 
-Python 3.8 ou superior
-
-pip (gerenciador de pacotes Python)
