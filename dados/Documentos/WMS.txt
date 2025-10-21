@@ -1,0 +1,651 @@
+SISTEMA WMS (WAREHOUSE MANAGEMENT SYSTEM): RELATO
+DE UM ESTUDO DE CASO SOBRE O DESENVOLVIMENTO
+E IMPLANTAÇÃO EM UMA INDÚSTRIA ALIMENTÍCIA NO
+NOROESTE DO PARANÁ
+Jailson de Oliveira Arieira1
+ARIEIRA, J. de O. Sistema WMS (Warehouse Management System): relato de
+um estudo de caso sobre o desenvolvimento e implantação em uma indústria
+alimentícia no noroeste do Paraná. Rev. Ciênc. Empres. UNIPAR, Umuarama,
+v. 13, n. 1, p. 7-28, jan./jun. 2012.
+RESUMO: O momento econômico e tecnológico aponta para uma reestruturação dos paradigmas empresariais. As empresas devem adequar-se, tornando
+mais eficientes e ágeis suas decisões. A logística empresarial, responsável pelo
+abastecimento e distribuição da empresa, tem papel relevante nesse contexto. A
+manutenção, manuseio e movimentação de materiais têm um destaque especial,
+pois garantem o fluxo de insumos e produtos. Assim, vale destacar a importância
+dos sistemas de gestão de armazéns ou WMS (Warehouse Management System).
+Esses sistemas dotam a administração de instrumentos de gestão e controle dos
+estoques, reduzindo custos de operação e aumentando a qualidade dos serviços.
+O presente estudo de caso, desenvolvido numa indústria de alimentos no noroeste do Paraná, objetivou analisar as dificuldades de implantação do WMS. Dentre
+os principais resultados obtidos, a percepção da importância do sistema por parte
+dos usuários, mas sua pouca capacitação em gerí-lo adequadamente apresenta-se
+com elemento preponderante.
+PALAVRAS-CHAVE: WMS (Warehouse Management System). Gestão de estoques. Gestão de armazéns.
+WMS (WAREHOUSE MANAGEMENT SYSTEM) SYSTEM: REPORT
+OF A CASE STUDY ON THE DEVELOPMENT AND IMPLANTATION
+IN THE FOOD INDUSTRY IN NORTHWEST OF PARANÁ
+ABSTRACT: The economic and technological moment points to a reorganization of the enterprise paradigms. The companies must adjust themselves, becoming more efficient and agile their decisions. The logistic enterprise, responsible
+1
+Doutor em Engenharia da Produção, pela UNIP, Mestre em Administração Rural (UFLA), Graduado
+em Administração pela UFJF. Professor de Administração Rural, Economia Rural e Agronegócios do
+Departamento de Ciências Agronômicas da Universidade Estadual de Maringá, Campus Regional de
+Umuarama. E-mail: jarieira@attaconsultores.com.br
+8 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+1 INTRODUÇÃO
+Com a globalização crescente, o ambiente competitivo das empresas
+se torna sempre mais acirrado. Um dos fatores que alimentam e sustentam esse
+for the supplying and for the distribution of the company, is very important in
+this context. The preservation, handling and movement of materials have a special prominence, therefore they guarantee the flow of inputs and products. Thus,
+it is worth highlighting the importance of the Warehouse Management System
+(WMS). These systems provide the administration of management tools and stock control, reducing operating costs and increasing quality of services. The present study, developed in a food industry in northwest of Paraná aimed to analyze
+the difficulties of implantation of the WMS. Amongst the main gotten results, the
+perception of the importance of the system on the part of the users, but its little
+qualification in manager it adequately appears as a prominent element.
+KEYWORDS: WMS (Warehouse Management System). Stock management.
+Warehouse management.
+SISTEMA WMS (WAREHOUSE MANAGEMENT SYSTEM):
+RELATO DE UN ESTUDIO DE CASO SOBRE EL DESARROLLO
+E IMPLANTACIÓN EN UNA INDUSTRIA ALIMENTICIA EN EL
+NOROESTE DE PARANÁ
+RESUMEN: El momento económico y tecnológico señala para una reestructuración de los paradigmas empresariales. Las empresas deben adecuarse, haciéndose más eficientes y agiles en sus decisiones. La logística empresarial, responsable por el abastecimiento y distribución de la empresa, tiene papel relevante
+en este contexto. La manutención, manoseo y movimiento de materiales tienen
+un destaque especial, pues garantiza el flujo de insumos y productos. Así, vale
+destacar la importancia de los sistemas de gestión de almacenes, el WMS (Warehouse Management System). Esos sistemas dotan la administración de instrumentos de gestión y control de los stocks, reduciendo costos de operación y
+aumentando la calidad de los trabajos. Este estudio de caso, desarrollado en una
+industria de alimentos en el noroeste de Paraná, buscó analizar las dificultades de
+implantación del WMS. Entre los principales resultados obtenidos, se constató
+la percepción de la importancia del sistema por parte de los usuarios, pero existe
+la falta de capacitación en gestionarlo adecuadamente, por eso se presenta como
+elemento preponderante.
+PALABRAS CLAVE: WMS (Warehouse Management System). Gestión de
+stocks. Gestión de almacenes.
+ARIEIRA, J. de O. 9
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+modelo econômico é o avanço da tecnologia verificado nas últimas décadas.
+Os modernos sistemas de comunicação e transferência de dados, associados à
+maior capacidade de processamento dos equipamentos de informática, tornaram
+o mundo menor e mais interligado.
+Nesse sentido, qualquer empresa que queira obter sucesso deve estar
+ciente de que terá que se adequar a essas tendências tecnológicas, visando mais
+eficiência e agilidade nas ações e decisões. Uma das áreas que mais sentem tal
+pressão é a logística empresarial, conceituada pelo Council of Supply Chain Management Professionals como o processo de planejar, implementar e controlar de
+maneira eficiente o fluxo e a armazenagem de produtos, bem como os serviços e
+informações associados, cobrindo desde o ponto de origem até o ponto de consumo, com o objetivo de atender aos requisitos do consumidor (NOVAES, 2007).
+Em outras palavras, a logística é responsável por abastecer a empresa
+com os insumos necessários, coordenar as atividades produtivas e de estocagem,
+bem como por distribuir os produtos e serviços aos consumidores, colocando-os
+no local certo, no momento certo, na quantidade certa e com o custo adequado,
+ou seja: a logística é a ligação da empresa com o mercado.
+Dentre as atividades típicas da logística, a manutenção de estoque e a
+movimentação de materiais apresentam um importante papel competitivo, pois
+garantem o correto fluxo de insumos do mercado para a empresa e de produtos
+da empresa para o mercado. Essa atribuição da logística sofre constante pressão
+por eficiência e, nos últimos anos, vem respondendo a essas pressões com investimentos maciços em tecnologia da informação e comunicação (TIC).
+Considerando as várias tecnologias empregadas pelas empresas na área
+de controle de estoques e armazenagem, vale destacar os sistemas de automação
+de armazéns ou sistemas de gestão de armazéns, também chamados de WMS
+(Warehouse Management System). Esses sistemas visam dotar a área de administração de estoques e armazenagem de ferramentas para gestão e controle de
+expedição, localização e controle dos insumos e produtos estocados em determinado espaço físico (RIBEIRO; SILVA; BENVENUTO, 2006; BAKER; HALIM,
+2007).
+Assim sendo, o WMS vem dotando as empresas usuárias de uma importante vantagem competitiva em relação aos concorrentes, pois tais sistemas
+tendem a reduzir custos de operação e a aumentar a qualidade dos serviços prestados. Portanto, uma empresa que não adote tal ferramenta de gestão e controle
+pode se encontrar em desvantagem, no futuro.
+Desse modo, uma importante questão acompanha as empresas que ainda estão à margem da utilização das ferramentas de WMS: quais as dificuldades
+encontradas no desenvolvimento e implantação de tais instrumentos no contexto
+empresarial?
+10 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+O estudo é uma contribuição aos empresários, ao analisar as dificuldades, peculiaridades e aspectos técnicos e organizacionais que devem ser considerados quando da opção pelo desenvolvimento interno de um sistema WMS e
+sua consequente implantação na empresa. Ao abordar as questões relativas ao
+desenvolvimento interno da ferramenta, evidencia-se uma situação não muito
+comum, pois a maioria das empresas adquire tais sistemas de empresas especializadas, em vez de desenvolver sua própria ferramenta. Tal opção se dá devido
+às especificidades dos recursos requeridos, principalmente no que diz respeito à
+necessidade de uma equipe de tecnologia da informação (TI) qualificada.
+Portanto, o presente estudo tem como objetivo geral estudar o processo de desenvolvimento e implantação de um sistema WMS em uma empresa
+processadora de alimentos da região noroeste do Paraná. Mais especificamente,
+pretende-se:
+• Identificar os principais aspectos de atenção e dificuldades que devem ser
+vencidas para o desenvolvimento de um sistema de WMS numa empresa
+industrial;
+• Verificar as principais dificuldades encontradas durante a implantação do
+sistema de WMS desenvolvido;
+• Fazer uma análise crítica dos aspectos fundamentais que envolvem o processo de implantação bem sucedida de um sistema de WMS.
+O estudo é apresentado em três etapas. Na primeira etapa são referenciados os conceitos teóricos que fundamentam as discussões do trabalho. Em
+seguida, são apresentados os aspectos metodológicos que sustentam o estudo.
+Na última, são discutidos os resultados do trabalho, avaliando-o à luz da teoria.
+2 FUNDAMENTAÇÃO TEÓRICA
+Nessa parte do estudo são apresentados e discutidos os principais conceitos que embasam o trabalho de campo desenvolvido. A fundamentação é subdividida em três partes. Na primeira parte discute-se o avanço e a importância
+da tecnologia da informação para a gestão dos negócios, na segunda discute-se o
+papel da tecnologia da informação na logística e, por fim, discute-se a questão do
+conceito e importância do sistema WMS para a eficiência logística.
+2.1 Tecnologia da informação
+O processo decisório, no século XXI, está fundamentado na eficiente
+obtenção e utilização da informação. Todos os processos, atividades e ações empresariais estão associadas a certo grau de informação, e dependem desta para a
+plena obtenção dos resultados. É o que se denomina a era da informação (SILVA
+ARIEIRA, J. de O. 11
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+FILHO, 2001).
+A informação foi incorporada aos processos produtivos e gerenciais, de
+tal forma, que hoje pode e deve ser considerada mais um recurso produtivo, ou
+seja, um insumo necessário para o bom andamento das atividades empresariais.
+A informação foi alçada ao mesmo nível de importância dos recursos clássicos:
+terra, capital e trabalho (NOVAES, 2007).
+A importância desse recurso é expressa por Maçada, Feldens e Santos
+(2007), que mostram que as empresas americanas investiram US$ 3,5 bilhões
+em TI no ano de 2001. No entanto, esses autores chamam atenção para o fato
+de que, no Brasil, tais investimentos ainda são incipientes, como demonstram os
+investimentos da ordem de US$ 57,7 milhões, executados em 2001 pelas empresas brasileiras. Nessa mesma linha, Prontil e Souza (2005), em um estudo com
+cooperativas, verificaram que essas apresentam a totalidade de seus estoques
+controlados por algum tipo de sistema de informação, ratificando a importância
+desses sistemas nessa área.
+Essa importância também é ressaltada pelo grande número de inovações tecnológicas e aplicativos que têm surgido nos últimos anos, voltados principalmente para gestão da cadeia de suprimentos e dos processos produtivos da
+área de operações (SAHAY; GUPTA, 2003).
+No entanto, não basta investir em TI. É necessário que tais investimentos sejam feitos de forma planejada e bem avaliada, com dimensionamento dos
+custos e dos benefícios envolvidos em tal processo. Ho, Wu e Tai (2004) mostram que a falta de planejamento na implantação de sistemas de informação podem levar a importantes falhas ou problemas gerenciais. Segundo esses autores,
+cerca de 90% das empresas gasta, na implantação dos sistemas, mais do que o
+orçado, e outros 20% apresentam insucessos na implantação das ferramentas.
+Pires (2004) e Ballou (2003) também destacam a importância da tecnologia da informação como elemento garantidor da eficiência logística e empresarial, desde que implantada de forma planejada e sistematizada. Meirelles e Maia
+(2005), a partir de uma análise dos dados do fórum de informações permanentes
+sobre ‘Administração de Recursos de Informática na Empresa’ e sobre o ‘Mercado Nacional de Informática’, fazem uma constatação que corrobora o exposto,
+ao constatarem a ampliação no uso da informática e o maior reconhecimento de
+sua importância por parte dos gestores da empresa.
+2.2 Logística e a tecnologia da informação
+Dentro da atual dinâmica empresarial, vale destacar que uma das principais áreas que mais se desenvolveu e mais se utilizou dos avanços empreendidos
+em TIC foi a área de logística. O uso massivo das TICs permitiu que a área de
+12 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+logística ampliasse sua abrangência e influência e, conforme Nazário (1999),
+permitiu às empresas executar operações que antes eram inimagináveis.
+A logística, antes relegada a segundo plano, era gerida de forma segmentada e departamentalizada. Vários setores da empresa cuidavam de atividades típicas de logística, como transporte, compras e gestão de materiais. Entretanto, nas últimas décadas do século XX a logística ganhou destaque na gestão
+das grandes empresas e assumiu o status de área estratégica (BOWERSOX;
+CLOSS, 2001).
+Esse boom de logística, no entanto, se deu não por uma revolução dos
+processos e procedimentos logísticos, mas por uma aplicação maciça dos avanços de ferramentas e sistemas de TIC na gestão das atividades-chave da área de
+logística, tais como transporte (roteirização), gestão de armazenagem (WMS),
+gestão de processamento de pedidos (EDI – Eletronic Data Interchange), e
+gestão dos relacionamentos com clientes (ECR – Eficient Consumer Response)
+(HELO; SZEKELY, 2005).
+Uma empresa que não possua um eficiente sistema de roteirização de
+frota e gestão de transporte, que não disponha de recursos tecnológicos suficientes para armazenar e utilizar de forma efetiva e rápida as informações obtidas
+junto aos clientes, ou que não possua um eficiente sistema de armazenagem, movimentação, manuseio e controle de estoques, terá sérios problemas para competir no mercado (ALVARENGA; NOVAES, 2000).
+ Portanto, ser eficiente nessas três atividades denominadas ciclo crítico
+de logística, e que dependem muito de TI, é condição sine qua non para a sobrevivência da empresa (CHRISTOPHER, 2001).
+Ching (2001) e Wanke (2005) destacam a importância da gestão de estoques no sucesso do processo logístico e de como a TI possibilita ou fornece
+ferramentas que auxiliam a tomada de decisão e a operação dos sistemas de armazenamento e controle de estoques.
+Vários trabalhos foram desenvolvidos e ratificam e importância de se
+gerenciar, com suporte de TI, os sistemas logísticos das empresas, com ênfase
+nos sistemas de armazenagem. Dentre tais trabalhos destacam-se os de Villela,
+Merlin e Pereira (2009), estudando o sistema de armazenagem de uma indústria
+de bicicletas; Oliveira e Pizzolato (2003), num estudo sobre o sistema de distribuição da ECT (Empresa Brasileira de Correios e Telegrafos); Rodrigues e
+Pizzolato (2003), num trabalho que enfatiza a contribuição que os CDs (Centros
+de Distribuição) podem gerar para as empresas; Graeml, Graeml e Csillag (2005)
+focam a discussão sobre a contribuição de bons sistemas de armazenagem para
+efetiva utilização de novas ferramentas de atuação comercial, como as operações
+via Web.
+Nesse sentido, Holst e Bolmsjö (2001) e Baker e Halim (2007) desta-
+ARIEIRA, J. de O. 13
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+cam a utilização do WMS como uma ferramenta importante para a organização e
+aumento da eficiência dos processos de estocagem das empresas.
+2.3 Sistema WMS
+Os sistemas de gestão de armazéns (WMS) surgiram como uma ferramenta integrada das funções e atividades desempenhadas no âmbito dos armazéns das empresas. O objetivo básico dessa ferramenta é tornar mais ágeis,
+seguras e confiáveis as operações típicas de armazenagem (RIBEIRO; SILVA;
+BENVENUTO, 2006). Dentre as principais atividades, cujo desempenho é otimizado pelo uso do WMS, pode-se citar a alocação dos produtos e insumos nos
+espaços físicos disponíveis, o controle do volume de itens armazenados (geral e
+individualizados por SKU – Stock Keeping Unit) e os procedimentos de expedição de materiais.
+Os sistemas WMS são ferramentas de gestão que visam maximizar o
+nível de serviço ao cliente, no âmbito da gestão de estoques, pela integração
+das informações geradas pelos sistemas de compras, vendas e transporte. Taylor
+(2005, p. 113) discute a importância das atividades de gerenciamento de armazéns como ferramentas para “harmonizar o fluxo de estoque pelas instalações”,
+possibilitando melhor controle das operações dos armazéns e potencializando os
+resultados e a eficiência.
+Carvalho, Carvalho e Oliveira (2002) consideram o fato de que os estoques, apesar de sua necessidade para o fluxo eficiente na cadeia de suprimentos,
+representam um risco para os resultados financeiros das empresas, pois imobilizam capital de giro e diminuem a flexibilidade operacional da empresa. Assim,
+é fundamental que os níveis de estoques e a eficiência nas operações de armazenagem sejam otimizados, objetivos empresariais que podem ser alcançados com
+a contribuição do WMS.
+Outra atividade logística importante, que tem sua execução facilitada
+pelo WMS, é a logística reversa, que trata do contrafluxo de produtos verificado
+nas operações, ou seja, no fluxo de produtos originado do cliente e destinado à
+empresa, devido aos mais diversos fatores, tais como: validade vencida, desconformidades, ou problemas de qualidade. Quanto maior o volume desse fluxo
+reverso, maior a necessidade e a contribuição de um WMS (GUARNIERI et al.,
+2006).
+Logo, a cadeia de suprimentos (SCM – Supply Chain Management) se
+beneficia do aumento de eficiência gerado pelo sistema de gestão de armazenagem, que contribui para a melhoria dos níveis e localização dos estoques ao
+longo da cadeia. Nesse sentido, o WMS se destaca, pois possibilita o melhor
+controle das operações de estocagem, movimentação e expedição, tornando-as
+14 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+mais baratas e eficientes, garantindo maior nível de serviço ao cliente (CHRISTOPHER, 2001; BANZATTO, 2003; SUNHIGA; RIBEIRO, 2007).
+Em última análise, pode-se afirmar que o WMS é um importante elemento de gestão da Cadeia de Suprimentos (SCM), que propicia maior competitividade e maior confiabilidade às decisões gerenciais inerentes aos relacionamentos na cadeia de suprimentos, atuando, não somente em nível empresarial,
+mas fornecendo informações e benefícios para o sistema como um todo.
+3 ASPECTOS METODOLÓGICOS
+Nesta parte do artigo são apresentados e discutidos os aspectos metodológicos da pesquisa, a descrição do local de estudo e dos procedimentos de
+pesquisa utilizados, bem como a caracterização do estudo efetuado.
+3.1 Local do estudo
+O estudo foi realizado em uma empresa do setor de alimentos de Umuarama, região Noroeste do Paraná. A empresa em questão processa e embala
+alimentos que distribui para todo o Brasil, por meio de um sistema próprio de
+distribuição e logística. Conta com filiais no nordeste, sul e sudeste do país, possui uma frota própria com mais de 180 veículos e gerencia depósitos próprios
+para armazenamento dos produtos em cinco cidades do país (quatro cidades na
+região Sul e uma na região Nordeste). Por razões de sigilo, a empresa será doravante denominada ‘Alpha’.
+A empresa possui um amplo mix de produtos, com mais de 550 SKU
+(Stock Keeping Unit), e processa mais de 200 tipos de alimentos: cereais (arroz,
+feijão, derivados de trigo, milho e mandioca), enlatados (azeitonas, molhos e
+condimentos), misturas prontas para bolos, achocolatados, cereais matinais, dentre outros produtos. Esse volume de SKU movimentados e manuseados exige
+um alto volume de operações de armazenamento, movimentação e manuseio de
+materiais e produtos acabados, gerando a necessidade de uma série de procedimentos de planejamento e controle das operações.
+A empresa conta, somente na sede, com três unidades de armazenamento, gerenciadas com pessoal e equipamentos próprios. São cerca de 200 funcionários, ligados diretamente às funções de operação e controle dos sistemas
+de estocagem. O total de empregados da empresa passa de 1.500 pessoas. Os
+principais produtos produzidos são armazenados em caixas ou fardos, que são
+empilhados em paletes e armazenados em drive ins ou racks. A movimentação
+interna é realizada através de empilhadeiras elétricas e paleteiras manuais. A movimentação da área de produção para os depósitos se dá por meio de tratores, em-
+ARIEIRA, J. de O. 15
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+pilhadeiras ou caminhões toco, enquanto que o recebimento de matérias-primas
+é feito por meio de carretas e caminhões trucados.
+A empresa apresenta uma produção média mensal de 500 toneladas,
+que é transportada para todo o Brasil, com destaque para os estados do Paraná,
+Santa Catarina, Rio Grande do Sul, Mato Grosso do Sul e São Paulo. Portanto,
+a empresa pode ser considerada, segundo os critérios do SEBRAE, como uma
+empresa de grande porte (SEBRAE, 2010).
+3.2 Caracterização do estudo
+Trata-se, o presente estudo, conforme classificação de Marconi e Lakatos (2000) e Cervo e Bervian (2002), de um estudo de caso, no qual se busca estudar uma dada realidade, dentro de limites estritos de aplicação e em condições
+nas quais o pesquisador não controla, nem interfere diretamente nas variáveis de
+estudo.
+Conforme Yin (2004), o estudo de caso é a metodologia recomendável
+quando se estudam eventos contemporâneos e em condições em que as variáveis
+e o contexto macro não possam ser manipulados ou controlados pelo pesquisador. Nesse método, a busca de informações para análise ocorre por meio de
+entrevistas, aplicação de questionários, análise documental, observação, dentre
+outros, através dos quais o pesquisador obtém as informações necessárias para o
+desenvolvimento da pesquisa.
+Ainda segundo a tipificação de Cervo e Bervian (2002), o estudo deve
+ser classificado como uma pesquisa aplicada, com relação à finalidade; um estudo exploratório e descritivo, em relação aos objetivos; uma pesquisa de campo,
+no que diz respeito ao objeto de estudo; um estudo de caso, no tocante aos procedimentos; e qualitativo, quanto à abordagem.
+Desse modo, o presente trabalho se caracteriza por ser: um estudo de
+caso, que não pretende extrapolações; exploratório, pois é um estudo preliminar
+para buscar elementos para uma posterior análise mais profunda das relações
+verificadas; descritivo, pois não busca fazer relacionamentos mais criteriosos dos
+fenômenos observados, mas apenas descrevê-los e apontar possibilidades de relações de causa e efeito que deverão ser estudadas com profundidade no futuro.
+3.3 Procedimentos de coleta e análise dos dados
+O estudo foi realizado em duas etapas distintas. Na primeira etapa, foram estudados e discutidos os processos e atividades realizados durante o desenvolvimento do sistema WMS. Na segunda etapa, foram discutidos e analisados
+os processos de implantação do sistema, suas dificuldades e os resultados obtidos
+16 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+com a implantação.
+A primeira etapa foi realizada no período de setembro a novembro de
+2007, por meio de entrevistas semiestruturadas, com a equipe de desenvolvimento do sistema (área de TI) e com a gerência da área de logística e operações.
+Foram realizadas, nesse período, 15 entrevistas, que possibilitaram conhecer o
+processo de desenvolvimento interno do sistema. Os dados obtidos foram analisados e os resultados apresentados e discutidos no item 4.1.
+A segunda etapa do estudo ocorreu entre janeiro e maio de 2008, com
+o início do processo de implantação do sistema nos armazéns da empresa. Nessa
+fase, foram identificados os problemas e dificuldades e analisados os procedimentos de implantação do sistema desenvolvido.
+Nessa segunda etapa, foram realizadas visitas à empresa, para analisar
+a estrutura física, a capacitação de pessoal e os procedimentos de implantação
+do sistema. Também foram realizadas entrevistas com o gerente, supervisores e
+encarregados da área de logística da empresa, num total de 10 entrevistados. De
+posse dessas informações, procederam-se as análises.
+4 DISCUSSÃO DOS RESULTADOS
+A discussão dos resultados está dividida em duas partes, para facilitar a compreensão. Na primeira parte, são discutidos os aspectos relevantes e
+dificuldades encontradas para o desenvolvimento do sistema. Na segunda, são
+discutidos os resultados obtidos com a implantação do sistema, com ênfase nas
+dificuldades de implantação verificados.
+4.1 Desenvolvimento do sistema
+O trabalho foi iniciado no segundo semestre de 2006, com os estudos
+preliminares sobre as necessidades da área de logística em relação à armazenagem. A motivação desse trabalho foi a percepção da área de logística de que o
+nível de serviço oferecido, pelo setor de armazenagem, estava aquém das necessidades dos clientes e estava afetando, de forma negativa, os resultados da
+empresa.
+A partir dessa constatação, a área de TI da empresa foi acionada, para
+responder com uma ferramenta que auxiliasse o processo de gestão e controle
+das operações de armazenagem, tais como operação de empilhadeiras, codificação de itens, e alocação de SKU no espaço físico.
+Após o recebimento da solicitação, a área de TI buscou conhecer os
+softwares disponíveis no mercado que se prestassem ao gerenciamento de tal
+atividade. Essa busca envolveu a visita a desenvolvedores, palestras com es-
+ARIEIRA, J. de O. 17
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+pecialistas no assunto e visitas a empresas, para visualização de tais sistemas
+em funcionamento. Após essas análises iniciais, optou-se pelo desenvolvimento
+interno da ferramenta, devido às peculiaridades e às necessidades específicas da
+empresa, que justificaram o desenvolvimento interno. Chiku (2004), ressalta os
+fatores que devem ser levados em consideração para a escolha de um WMS, os
+quais foram observados pela empresa.
+A partir daí, com o apoio técnico da área de logística, a área de TI desenvolveu o projeto do WMS da empresa, o qual foi apresentado e aprovado
+para implantação em junho de 2007. No entanto, sua efetiva implantação estaria
+atrelada a uma série de reformas físicas que estão sendo providenciadas.
+O WMS desenvolvido responde às necessidades da empresa e incorpora
+as seguintes funcionalidades, que correspondem às mesmas sugeridas nos trabalhos de Verissimo e Musetti (2003) e Sucupira (2004):
+• Registro da entrada de matérias-primas no sistema de armazenagem;
+• Registro das solicitações de compra, reposição e requisição de materiais do
+sistema de armazéns;
+• Registro da entrada de produtos acabados e de produtos em processo nos
+armazéns;
+• Registro das saídas, pedidos e vendas de produtos dos armazéns;
+• Identificação das causas das saídas (retiradas) e perdas de produtos do sistema de armazenagem;
+• Alocação dos produtos internamente no armazém, conforme a rotatividade,
+peso e vulnerabilidade dos produtos;
+• Criação de um sistema de roteirização de SKU e codificação de produtos,
+para auxiliar no processo de alocação de itens nos endereços dos armazéns;
+• Codificação, por meio de código de barras, de todos os produtos e insumos
+sob guarda do sistema de armazenagem;
+• Emissão de documentos e relatórios de atividades e controles das operações
+efetuadas nos armazéns;
+• Armazenamento e recuperação de operações realizadas, criação de índices
+de desempenho por atividade, setor, funcionário e horário de execução.
+Com a plena utilização desse sistema, a gerência de logística pode rapidamente identificar quais os pontos falhos do sistema de operação, qual a produtividade do setor e sua evolução ao longo do tempo, os problemas e dificuldades
+vislumbradas, bem como as soluções encontradas. Portanto, tem maior possibilidade de atuar proativamente na gestão logística, aumentando o nível do serviço
+prestado, diminuindo os custos do setor e aumentando a efetividade da equipe.
+18 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+4.2 Implantação do sistema
+Nessa etapa, são apresentados e discutidos os principais resultados associados ao processo de implantação do sistema de gerenciamento de armazéns
+na empresa Alpha. Este tópico foi dividido em partes, para acomodar os vários
+aspectos investigados e avaliados no processo de pesquisa.
+4.2.1Visão dos gestores sobre o WMS
+Utilizando-se do questionário de pesquisa (roteiro de entrevista) procederam-se às entrevistas com os gestores, como descrito na metodologia. Os gestores responderam a um grupo de questões sobre o projeto do sistema de WMS e
+sua participação em seu processo de desenvolvimento.
+Os gestores foram questionados se conheciam um sistema WMS e suas
+funcionalidades. Todos os entrevistados disseram conhecer, mesmo que superficialmente, o que é e quais as funcionalidades de um sistema de gestão de armazéns – WMS.
+No entanto, apenas os gestores mais diretamente ligados à gestão de
+armazenagem disseram ter sido contatados pela equipe de TI responsável pelo
+desenvolvimento do software. Esse fato pode se revelar um empecilho para a
+correta utilização do sistema nas atividades operacionais da empresa, pois não
+gera um comprometimento de toda equipe com o resultado do processo.
+Isso pode ser visto quando questionados sobre suas expectativas acerca
+do sistema, como será abordado mais à frente. Por outro lado, os gestores (gerentes, supervisores e encarregados) que atuaram com assessores no desenvolvimento do trabalho, mostraram-se mais confiantes em seus resultados.
+Um aspecto, que vale ser ressaltado, é o fato de que nenhum dos gestores recebeu qualquer treinamento ou formação, por parte da empresa, sobre o
+funcionamento futuro do sistema, nem mesmo de suas funcionalidades e restrições. Os conhecimentos existentes são de cunho pessoal, pois foram obtidos pelo
+esforço próprio de leitura e pesquisa dos próprios gestores.
+Portanto, verifica-se uma falha da empresa, já na fase de desenvolvimento do sistema, uma vez que não se deu a devida importância para informação, capacitação e motivação de seus funcionários, no que tange à mudança
+tecnológica, cultural e de procedimentos de trabalho, representada pelo novo
+sistema de gestão de armazéns que estava sendo desenvolvido.
+4.2.2 Visão dos gestores sobre a empresa
+De uma forma geral, percebe-se um comprometimento dos gestores
+ARIEIRA, J. de O. 19
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+com a empresa, que chega até mesmo a uma relação de afeto. No entanto, alguns
+aspectos negativos merecem ser destacados, pois podem representar um risco
+para a efetiva utilização do novo sistema.
+O primeiro aspecto relaciona-se, como já citado anteriormente, a não
+participação de toda a equipe no processo de desenvolvimento do sistema. Esse
+fato pode gerar uma falta de comprometimento futuro, com relação à sua alimentação e ao seu monitoramento, se esse se mostrar muito restritivo ou demandar
+muito tempo para sua execução.
+Embora, num primeiro momento, durante o processo inicial de uso, o
+fator novidade esteja motivando sua utilização, com o passar do tempo e com o
+surgimento dos problemas e cobranças de eficiência, podem ocorrer situações
+de resistência para sua utilização, quando comparado com o processo anterior,
+menos eficaz, porém mais flexível e com mais possibilidades de ajustes de conveniência, situação impossível de ser executada no processo automatizado implantado.
+Outro aspecto levantado diz respeito à ausência de uma política de capacitação e treinamento definida, na empresa. Essa questão pode levar a empresa
+a um dilema importante, no que tange à eficiente utilização do WMS: ter um
+sistema eficiente e eficaz que atenda às necessidades da empresa, mas não ter
+pessoal devidamente capacitado para alimentá-lo ou para extrair dele as informações relevantes para a efetiva tomada de decisões na área logística.
+Essa falta de uma política de capacitação gera, nos gestores, uma sensação de abandono e falta de comprometimento da empresa para com eles. Além
+disso, mostram-se preocupados com a operação efetiva do sistema, pois acreditam que seus subordinados talvez não tenham capacidade técnica para operá-lo
+adequadamente, e que isso poderá implicar significativos desgastes com a equipe
+operacional.
+Entretanto, um ponto positivo, destacado por todos os entrevistados, foi
+a noção de que a empresa vem se transformando e melhorando seu processo de
+gestão de forma significativa no último triênio. É consenso, entre a equipe, que
+a empresa está se profissionalizando, tornando-se mais ágil e mais transparente
+em sua gestão, o que cria uma expectativa positiva para tais gestores, no médio
+prazo, com relação a possíveis promoções, melhoria nas condições de trabalho
+e no ambiente operacional da empresa. Há uma expectativa generalizada de que
+o setor de logística, ao qual a armazenagem está subordinada, ganhe destaque e,
+com isso, recursos adicionais para operação (financeiros, estruturais, tecnológicos e humanos) possam ser alocados no departamento.
+Portanto, a visão da equipe de gestão da área e suas expectativas sobre
+a empresa são positivas, embora alguns entraves ainda precisem ser superados,
+visão essa que é transferida para o sistema implantado, de gerenciamento de
+20 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+armazéns.
+4.2.3 Expectativas sobre o sistema WMS
+Com relação às expectativas sobre o sistema de gerenciamento de armazéns (WMS), essas são por demais otimistas. Os gestores, até mesmo com certo
+excesso de entusiasmo, creditam ao novo sistema a responsabilidade de resolver
+todos os seus problemas. É comum deparar-se com afirmações do tipo esse problema não existirá mais a partir do momento que o WMS estiver funcionando ou
+meus problemas são devido à falta de controle, mas com o WMS isso irá mudar.
+Ao mesmo tempo em que essa expectativa mostra uma resposta positiva
+para com a adoção do sistema, ela pode ser prejudicial, pois o WMS está sendo
+visto como uma panaceia na empresa, isto é, que todos os problemas de coordenação, gestão e operação, milagrosamente, irão desaparecer, o que não é verdade.
+Essa expectativa geral é justificada pelo grande número de problemas
+visualizados na operação do sistema anterior da empresa: falhas rudimentares
+ocorriam, como, por exemplo, o desaparecimento de produtos dentro do setor
+de estocagem, os quais, tempos depois, eram encontrados armazenados fora de
+sua localização correta. Tal expectativa de resultados é justificada na literatura
+por meio de estudos que mostram empresas que obtiveram significativos avanços nessas questões (COSTA; SOUZA; GOBBO JÚNIOR, 2007; VERÍSSIMO;
+MESUTTI, 2003).
+Assim, a possibilidade de uma ferramenta que melhore o controle das
+operações, diminuindo o esforço individual foi bem vinda ao corpo de gestores.
+No entanto, vale destacar que não houve ainda um preparo específico dos operadores, e até mesmo dos gestores, para utilização eficiente do sistema, o que pode
+levar a problemas ainda maiores que os verificados antes de sua implantação,
+levando o sistema ao descrédito e inviabilizando sua futura manutenção na empresa.
+Portanto, é recomendável que a alta direção da empresa tenha em mente
+a necessidade de treinar o pessoal para usar adequadamente o sistema, como uma
+estratégia para aperfeiçoar o uso de tal recurso e obter os benefícios previstos e
+esperados com o sistema.
+4.2.4 Dificuldades organizacionais e humanas na implantação do sistema
+Como já apresentado e discutido anteriormente, uma das principais dificuldades vislumbradas no processo de implantação é a baixa capacitação do
+corpo operacional da empresa. Os funcionários do setor operacional não dispõem
+de um programa institucional de treinamento e apresentam, de modo geral, um
+ARIEIRA, J. de O. 21
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+baixo nível de escolaridade.
+A baixa escolaridade, associada à ausência de uma política de treinamento e capacitação, gera uma condição inadequada para a implantação de um
+sistema sofisticado de gestão, como é o caso do WMS, pois os colaboradores terão de lidar com informática e respeitar estritamente as recomendações do sistema para armazenar, movimentar e manusear os produtos, o que, pela experiência
+da empresa, gerará significativas resistências e problemas operacionais.
+Além desse aspecto, vale destacar que a empresa apresenta, por se encontrar num processo de mudança de cultura (de empresa familiar para empresa
+profissionalizada), deficiências em termos de procedimentos internos de geração,
+gestão e controle das informações.
+É comum, na empresa, os gerentes agirem em problemas emergenciais,
+apagando incêndios, em vez de reservar parte de seu tempo para planejar as
+ações futuras, estudar o comportamento do mercado (fornecedores, consumidores e concorrentes), e gerir as mudanças necessárias para o pleno desenvolvimento de seus setores.
+Portanto, esses dois aspectos, capacitação de pessoal e gerência, voltados somente para a operação imediata, são fatores que dificultam a plena adoção da nova dinâmica gerencial e o reconhecimento dos benefícios gerados pelo
+novo sistema gestão de armazenamento.
+Nesse sentido, em paralelo com a implantação do sistema, deve ser implementado um processo de capacitação formal dos operadores e um programa
+para criar procedimentos e estruturar as atividades e responsabilidades dos gestores da área de logística.
+4.2.5 Dificuldades tecnológicas e estruturais para a implantação do sistema
+Além das questões de ordem organizacional e do sistema de gestão, dois
+fatores de ordem estrutural são limitantes para a plena utilização dos recursos
+tecnológicos introduzidos pelo WMS.
+O primeiro fator é a limitação de espaço físico da área de armazenamento, contando com cerca de 2.500 m2
+ de área de armazenagem, verifica-se
+uma situação constante de manuseio e movimentação desnecessária, que, além
+de gerar custos e não agregar valor aos produtos, ainda costuma gerar perdas
+significativas, com danos aos produtos.
+Em termos de armazenagem, o espaço físico restrito dificulta o adequado endereçamento do armazém, criando empecilhos para a gestão e controle de
+estoques, tais como utilização do sistema PEPS (primeiro que entra, primeiro que
+sai) na rotação desses. Além disso, a presença de forte sazonalidade em alguns
+dos produtos agrava a situação do sistema de armazenagem.
+22 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+A grande maioria dos gestores entrevistados se mostrou preocupada
+com a limitação de espaço para o adequado gerenciamento do sistema. Isso mostra que, apesar das expectativas positivas, já existe um possível ‘culpado’ para
+assumir as falhas que o sistema possa apresentar. Isso gerar uma situação de
+comodidade na equipe, pois, se algo der errado, a culpa terá sido do espaço físico
+inadequado e não da falta de comprometimento ou competência da equipe para
+operar o WMS.
+Também merece destaque, nesse contexto, a questão de que a estrutura
+física da área de armazenamento carece de melhorias tecnológicas e de equipamentos, principalmente de movimentação, mais modernos, eficientes e adequados à realidade de operação da empresa.
+ As docas de expedição são insuficientes para a movimentação da empresa. Inexiste uma área de separação para as cargas e o número de equipamentos de movimentação é insuficiente para suportar as operações. Além disso, os
+equipamentos (próprios) são ultrapassados tecnologicamente e necessitam de
+manutenção adequada, o que gera um grande número de defeitos e quebras, que
+afetam o desempenho do setor.
+Esses fatores, agindo em conjunto, tendem a criar obstáculos significativos para a otimização do uso e do desempenho do sistema, pois, em muitas
+situações, não haverá condições físicas para sua eficiente operação. Portanto, a
+empresa precisa rever rapidamente a situação desse gargalo operacional, para
+não correr o risco de tornar o WMS uma peça decorativa e sem credibilidade
+interna.
+4.2.6 Processo de implantação do sistema
+O processo efetivo de implantação iniciou-se em janeiro de 2008, com
+o endereçamento do armazém e a reestruturação da metodologia de controle de
+estoques e da política de alocação dos produtos dentro do espaço físico. Inicialmente, foram introduzidos os 100 produtos mais relevantes para a empresa no
+sistema, que vem sendo acompanhado pela gerência da área.
+Implantou-se também um projeto piloto de separação de cargas, com
+alteração dos horários de carregamento, para maximizar a utilização da mão de
+obra e a disponibilidade de veículos. Paralelamente, foram implantados sistemas
+de drive in, para otimizar a operação dos produtos de maior giro e facilitar a utilização da metodologia PEPS.
+Está sendo preparado um programa específico de capacitação para os
+operadores do armazém (operadores de empilhadeiras, carregadores, conferentes e separadores), para dotá-los de conhecimentos específicos para a eficiente
+utilização dos recursos tecnológicos e físicos disponíveis no sistema de arma-
+ARIEIRA, J. de O. 23
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+zenagem.
+O processo de implantação, portanto, encontra-se em andamento, com
+ajustes sendo feitos no sistema e na estrutura física da empresa. No entanto, alguns resultados positivos já estão sendo obtidos, tais como melhoria nos tempos
+de entrega aos clientes, com ganhos de eficiência; diminuição do número de falta
+de produtos para complementação das cargas; melhor organização do sistema de
+estoques, com maior confiabilidade das informações.
+Entretanto, faltam ainda várias ações a serem implementadas para eliminar restrições ao uso do sistema, bem como aprofundar o processo de conscientização dos colaboradores acerca dos benefícios que serão gerados pelo uso
+do mesmo, tanto para a empresa, quanto para os próprios colaboradores.
+Pelo cronograma de implantação, espera-se que o processo esteja terminado em seis meses e que seja totalmente funcional até o final do ano de 2008,
+quando já terão sido levadas a termo as capacitações de funcionários, as alterações de arranjo físico, e as adaptações do espaço físico e dos equipamentos de
+armazenamento e movimentação.
+5 CONSIDERAÇÕES FINAIS
+O presente estudo, ao ser proposto, visou à compreensão do processo de
+desenvolvimento de sistemas (softwares) de gestão para dar suporte à tomada de
+decisões do setor de logística em uma empresa industrial, bem como o processo
+de implantação da nova solução.
+Verificou-se que a principal dificuldade, num processo de desenvolvimento de um sistema informatizado de controle gerencial, localiza-se na decisão
+entre adquirir um pacote comercial já pronto ou desenvolver a solução internamente.
+A empresa passou por esse dilema e se deparou com a seguinte questão: os pacotes comerciais não dispunham da algumas das facilidades requeridas
+e tinham um complicador adicional, que era a dificuldade de intercâmbio das
+informações com os demais sistemas já em uso na empresa. Por outro lado, o
+desenvolvimento interno do sistema demandaria um esforço significativo da área
+de TI, bem como demandaria um período de tempo maior para ser implantado.
+Além desses aspectos levantados, ponderou-se, também, sobre a questão do custo de implantação das duas alternativas.
+Assim, chegou-se à conclusão de que o tempo necessário para o desenvolvimento interno do sistema seria compensador, devido a maior facilidade
+de intercâmbio de informações gerenciais com os demais sistemas de gestão da
+empresa.
+Além disso, os custos de desenvolvimento interno e a possibilidade de
+24 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+se ter um produto desenvolvido de acordo com as especificações e necessidades
+da empresa foram fatores preponderantes para o desenvolvimento interno do sistema.
+Com o início do processo de adoção da nova ferramenta, verificou-se
+uma série de fatores limitantes da plena utilização das funcionalidades do sistema. Esses gargalos foram eliminados e dotou-se a estrutura da empresa dos
+recursos necessários ao funcionamento do WMS.
+No entanto, fatores como baixa qualificação da mão de obra, inexistência de procedimentos internos definidos e formalizados e deficiências estruturais
+e tecnológicas são fatores que não podem ser eliminados rapidamente. Tais fatores devem ser tratados de forma sistêmica e continuada, com o compromisso de
+divulgação dos resultados obtidos aos colaboradores, para torná-los comprometidos com o processo.
+Portanto, o presente trabalho discute o início um processo lento de mudança organizacional. Assim, os resultados apresentados são iniciais e serão monitorados ao longo do processo. Esse fato gera a limitação inerente a resultados
+preliminares. As estatísticas ainda são relativamente escassas e não representativas da eficiência efetiva do sistema, devido aos aspectos inerentes ao fenômeno
+da curva de aprendizagem.
+Desse modo, sugere-se, como trabalhos futuros, a investigação dos resultados obtidos com a plena utilização do sistema, mediante estudos quantitativos que avaliem critérios de eficiência e custos, antes e após a implantação do
+WMS.
+Outra possibilidade de trabalho subsequente seria uma investigação
+sobre o posicionamento dos colaboradores sobre as mudanças organizacionais
+envolvidas nesse processo de implantação do WMS e adoção de novas práticas
+operacionais e gerenciais.
+REFERÊNCIAS
+ALVARENGA, A. C.; NOVAES, A. G. N. Logística aplicada: suprimento e
+distribuição física. 3. ed. São Paulo: E. Blucher, 2000.
+BAKER, P.; HALIM, Z. An exploration of warehouse automation
+implementations: cost, service and flexibility issues. Supply
+Chain Management: An International Journal. v. 12, n. 2,
+p.129-138, 2007. Disponível em: <http://www.emeraldinsight.
+com/10.1108/13598540710737316>. Acesso em: 20 out. 2008.
+BALLOU, R. H. Logística empresarial: transportes, administração de
+ARIEIRA, J. de O. 25
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+materiais e distribuição. São Paulo: Atlas, 1993.
+BANZATO, E. Sistemas de controle e gerenciamento do armazém (WMS).
+Disponível em: <http://www.guiadelogistica.com.br/ARTIGO261.htm>. Acesso
+em: 12 fev. 2010.
+BOWERSOX, D. J.; GLOSS, D. J. Logística empresarial: o processo de
+integração da cadeia de suprimento. São Paulo: Atlas, 2001.
+CARVALHO, J. M. V. de; CARVALHO, M. S. de; OLIVEIRA, J. A.
+Programação de operações em sistemas com tempo de processamento variável.
+Pesquisa Operacional, Rio de Janeiro, v. 22, n. 3, p. 323-344, jul./dez. 2002.
+CERVO, A. L.; BERVIAN, P. A. Metolodogia científica. 5. ed. São Paulo:
+Prentice Hall, 2002.
+CHIKU, E. NYK Logistics implementa WMS da Store. Jornal Log Web, São
+Paulo, v. 33, p.14, nov. 2004.
+CHING, H.Y. Gestão de estoques na cadeia logística integrada: Suppl.
+Chain. 2. ed. São Paulo: Atlas, 2001.
+CHRISTOPHER, M. Logística e gerenciamento da cadeia de suprimentos.
+São Paulo: Pioneira, 2001.
+COSTA, W. A. S.; SOUZA, F. M.; GOBBO JUNIOR, J. A. Contribuição do
+WMS em um centro de distribuição varejista moveleiro. In: ENCONTRO
+NACIONAL DE ENGENHARIA DE PRODUÇÃO, 27., 2007, Foz do Iguaçu.
+Anais... Foz do Iguaçu. ABEBRO, 2007. p. 24.
+GRAEML, A. R.; GRAEML, K. S.; CSILLAG, J. M. A Internet e a integração
+da cadeia de suprimentos. In: SIMPÓSIO DE ADMINISTRAÇÃO DA
+PRODUÇÃO, LOGÍSTICA E OPERAÇÕES INTERNACIONAIS, 8., 2005,
+São Paulo. Anais... São Paulo. FGV-EAESP, 2005. p. 1-18.
+GUARNIERI, P. et al. WMS - Warehouse Management System: adaptação de
+uma proposta para o gerenciamento da logística reversa. Produção, São Paulo,
+v. 16, n. 1, p. 126-139, jan./abr. 2006.
+HELO, P; SZEKELY, B. Logistics information systems - na analysis of
+software solutions for supply chain co-ordination. Industrial Management
+26 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+& Data Systems, v. 105, n. 1, p. 5-18, 2005. Disponível em: <http://www.
+emeraldinsight.com/10.1108/02635570510575153>. Acesso em: 21 out. 2008.
+HO, C. F.; WU, W. H.; TAII, Y. M. Strategies for the adaptation of
+ERP systems. Industrial Management & Data Systems, v. 104, n.
+3, p. 234-251. 2004. Disponível em: <http://www.emeraldinsight.
+com/10.1108/02635570410525780>. Acesso em: 20 out. 2007.
+HOLST, L.; BOLMSJÖ, G. Simulation integration in manufacturing system
+development: a study of Japanese industry. Industrial Management &
+Data Systems, v. 101, n. 7, p. 339-356, 2001. Disponível em: <http://www.
+emeraldinsight.com/10.1108/EUM0000000005822>. Acesso em: 22 out. 2007.
+MAÇADA, A. C. G.; FELDENS, L. F.; SANTOS, A. M. dos. Impacto da
+tecnologia da informação na gestão das cadeias de suprimentos - um estudo de
+casos múltiplos. Gestão de Produção, São Carlos, v. 14, n. 1, p. 1-12, jan./abr.
+2007.
+MARCONI, M. de. A.; LAKATOS, E. M. Metodologia científica. 3. ed. São
+Paulo: Atlas, 2000.
+MEIRELLES, F. S.; MAIA, M. C. Panorama, evolução e tendências
+da tecnologia de informação na indústria brasileira. In: SIMPÓSIO DE
+ADMINISTRAÇÃO DA PRODUÇÃO, LOGÍSTICA E OPERAÇÕES
+INTERNACIONAIS, 8., 2005, São Paulo. Anais... São Paulo: FGV-EAESP,
+2005.
+NAZÁRIO, P. R. Importância de sistemas de informação para a
+competitividade logística. Revista Tecnologística, São Paulo, v. 44, p. 28-40,
+jul. 1999.
+NOVAES, A. G. Logística e gerenciamento da cadeia de suprimentos:
+estratégia, operação e avaliação. Rio de Janeiro: Elsevier, 2007.
+OLIVEIRA, P. F.; PIZZOLATO, N. D. Considerações sobre cross docking na
+ECT. In: ENCONTRO NACIONAL DE ENGENHARIA DE PRODUÇÃO,
+23., 2003, Ouro Preto. Anais... Ouro Preto: ABEBRO, 2003.
+PIRES, S. R. I. Gestão da cadeia de suprimentos: conceitos, estratégias,
+práticas e casos. São Paulo: Atlas, 2004.
+ARIEIRA, J. de O. 27
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+PROTIL, R. M.; SOUZA, A. B. K. Logística de suprimentos e gestão de
+estoques nas cooperativas agroindustriais do estado do Paraná. In: SIMPÓSIO
+DE ADMINISTRAÇÃO DA PRODUÇÃO, LOGÍSTICA E OPERAÇÕES
+INTERNACIONAIS, 8., 2005, São Paulo. Anais... São Paulo: FGV-EAESP,
+2005.
+RIBEIRO, P. C. C.; SILVA, L. A. F.; BENVENUTO, S. R. dos S. O uso de
+tecnologia da informação em serviços de armazenagem. Produção, São Paulo,
+v. 16, n. 3, p. 526-537, set./dez. 2006.
+RODRIGUES, G. G.; PIZZOLATO, N. D. Centros de distribuição:
+armazenagem estratégica. In: ENCONTRO NACIONAL DE ENGENHARIA
+DE PRODUÇÃO, 23., 2003, Ouro Preto. Anais... Ouro Preto: ABEBRO, 2003.
+SAHAY, B. S.; GUPTA, A. K. Development of software selection criteria
+for supply chain solutions. Industrial Management & Data Systems, v.
+103, n. 2, p. 97-110, 2003. Disponível em: <http://www.emeraldinsight.
+com/10.1108/02635570310463429>. Acesso em: 22 out. 2007.
+SILVA FILHO, A. M. da. A era da informação. Revista Espaço Acadêmico,
+v.1, n. 2, jul. 2001. Disponível em: <http://www.Espacoacadem ico.com.
+br/002/02col_mendes.htm>. Acesso em: 15 mar. 2010.
+SUCUPIRA, C. Gestão de depósitos e centros de distribuição através
+dos softwares WMS. Disponível em: <http://www.cezarsucupira.com.br/
+artigos111.htm>. Acesso em: 12 fev. 2010.
+SUNHIGA, R. F.; RIBEIRO, J. R. S. Avaliação do resultado da implantação
+de um software de gerenciamento de armazém (WMS) na empresa Delphi.
+In: SIMPOSIO DE ENSINO DE GRADUAÇÃO DA UNIMEP, 5., 2007,
+Piracicaba. Anais... Piracicaba: UNIMEP, 2007.
+TAYLOR, D. A. Logística na cadeia de suprimentos: uma perspectiva
+gerencial. São Paulo: Pearson, 2005.
+VERÍSSIMO, N.; MUSETTI, M. A. A tecnologia de informação na gestão
+de armazenagem. In: ENCONTRO NACIONAL DE ENGENHARIA DE
+PRODUÇÃO, 23., 2003, Ouro Preto. Anais... Ouro Preto: ABEBRO, 2003.
+VILLELA, C. S. S.; MERLIN, F. K.; PEREIRA, V. L. D. V. Adequação
+estratégica de áreas de estocagem e armazenagem: um estudo de caso em
+28 Sistema WMS (Warehouse Management System)...
+Rev. Ciênc. Empres. UNIPAR, Umuarama, v. 13, n. 1, p. 7-28, jan./jun. 2012
+uma montadora de bicicletas. In: SIMPÓSIO DE ADMINISTRAÇÃO DA
+PRODUÇÃO, LOGÍSTICA E OPERAÇÕES INTERNACIONAIS, 12., 2009,
+São Paulo. Anais... São Paulo: FGV-EAESP, 2009.
+WANKE, P. Metodologia para gestão de estoques de peças de reposição: um
+estudo de caso em empresa brasileira. Revista Tecnologística, São Paulo, ed.
+121, a. 11, p. 60-65, dez. 2005.
+YIN, R. Estudo de caso: planejamento e métodos. 3. ed. Porto Alegre: 

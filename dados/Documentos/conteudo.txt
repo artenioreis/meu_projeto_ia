@@ -1,0 +1,10 @@
+Inteligência Artificial é uma área da ciência da computação.
+Machine Learning é um subcampo da Inteligência Artificial.
+Python é uma linguagem de programação muito usada em IA.
+Redes neurais são inspiradas no cérebro humano.
+Algoritmos de aprendizado podem ser supervisionados ou não supervisionados.
+Deep Learning usa redes neurais com muitas camadas.
+Processamento de Linguagem Natural permite computadores entenderem linguagem humana.
+Visão computacional permite máquinas interpretarem imagens.
+Robótica combina IA com engenharia para criar robôs inteligentes.
+Ética em IA é importante para garantir uso responsável da tecnologia.

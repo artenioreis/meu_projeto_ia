@@ -1,0 +1,6 @@
+Python é uma linguagem de programação de alto nível.
+Python é muito usada em ciência de dados e machine learning.
+Flask é um framework web para Python.
+Django é outro framework web popular para Python.
+Inteligência Artificial é o futuro da tecnologia.
+Machine Learning é um subcampo da Inteligência Artificial.

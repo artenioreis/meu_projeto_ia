@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam - IA de Aprendizado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #4f46e5;
+            font-size: 3em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.3em;
+            line-height: 1.6;
+        }
+
+        .status-section {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 5px solid #4f46e5;
+        }
+
+        .status-section h2 {
+            color: #4f46e5;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .status-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .status-card h3 {
+            color: #4f46e5;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #1f2937;
+        }
+
+        .arquivos-list {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .arquivo-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .arquivo-item:last-child {
+            border-bottom: none;
+        }
+
+        .actions {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #4f46e5;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 500;
+            margin: 0 10px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #4338ca;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+        }
+
+        .btn-secondary {
+            background: #6b7280;
+        }
+
+        .btn-secondary:hover {
+            background: #4b5563;
+        }
+
+        .loading {
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        .success {
+            color: #10b981;
+        }
+
+        .error {
+            color: #ef4444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                <span>🤖</span>
+                Adam - IA de Aprendizado
+            </h1>
+            <p>Uma inteligência artificial que aprende automaticamente com múltiplos arquivos</p>
+        </div>
+
+        <div class="status-section">
+            <h2>📊 Status do Sistema</h2>
+            
+            <div class="status-grid">
+                <div class="status-card">
+                    <h3>🤖 Nome</h3>
+                    <div class="status-value" id="nome">Adam - IA de Aprendizado</div>
+                </div>
+                
+                <div class="status-card">
+                    <h3>🟢 Status</h3>
+                    <div class="status-value" id="status">Carregando...</div>
+                </div>
+                
+                <div class="status-card">
+                    <h3>📚 Sentenças</h3>
+                    <div class="status-value" id="sentencas">0</div>
+                </div>
+                
+                <div class="status-card">
+                    <h3>📁 Arquivos</h3>
+                    <div class="status-value" id="arquivos">0</div>
+                </div>
+            </div>
+
+            <div class="status-card">
+                <h3>🎯 Modelo Treinado</h3>
+                <div class="status-value" id="modelo">Carregando...</div>
+            </div>
+
+            <div class="status-card">
+                <h3>📋 Arquivos Processados</h3>
+                <div class="arquivos-list" id="lista-arquivos">
+                    <div class="loading">Carregando lista de arquivos...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <a href="/chat" class="btn">
+                💬 Conversar com Adam
+            </a>
+            <a href="/health" class="btn btn-secondary">
+                🔍 Health Check
+            </a>
+            <a href="/debug" class="btn btn-secondary">
+                🐛 Debug Info
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Carrega informações da Adam
+        function carregarInformacoes() {
+            fetch('/api/info')
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Dados recebidos:', data);
+                    
+                    // Atualiza as informações
+                    document.getElementById('nome').textContent = data.nome || 'Adam - IA';
+                    document.getElementById('status').textContent = data.status || 'Operacional';
+                    document.getElementById('sentencas').textContent = data.total_sentencas || 0;
+                    document.getElementById('arquivos').textContent = data.total_arquivos || 0;
+                    document.getElementById('modelo').textContent = data.modelo_treinado ? '✅ Sim' : '❌ Não';
+                    
+                    // Atualiza lista de arquivos
+                    const listaArquivos = document.getElementById('lista-arquivos');
+                    if (data.arquivos_processados && data.arquivos_processados.length > 0) {
+                        listaArquivos.innerHTML = data.arquivos_processados
+                            .map(arquivo => `<div class="arquivo-item">📄 ${arquivo}</div>`)
+                            .join('');
+                    } else {
+                        listaArquivos.innerHTML = '<div class="error">Nenhum arquivo processado</div>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar informações:', error);
+                    document.getElementById('status').textContent = '❌ Erro ao carregar';
+                    document.getElementById('status').className = 'error';
+                });
+        }
+
+        // Carrega as informações quando a página carrega
+        document.addEventListener('DOMContentLoaded', function() {
+            carregarInformacoes();
+            
+            // Atualiza a cada 30 segundos
+            setInterval(carregarInformacoes, 30000);
+        });
+    </script>
+</body>
+</html>
