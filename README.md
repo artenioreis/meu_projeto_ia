@@ -35,13 +35,21 @@ A Adam é uma IA de aprendizado multimodal que processa automaticamente diversos
 🚀 Características
 
 📁 Formatos Suportados
+
 Categoria	Formatos	Descrição
+
 📄 Documentos	.txt, .docx, .pdf, .rtf, .odt	Processamento de texto completo
+
 📊 Planilhas	.xlsx, .xls	Extração de dados de células
+
 🎤 Apresentações	.pptx, .ppt	Texto de slides e notas
+
 🎵 Áudio	.mp3, .wav, .aac, .wma, .ogg	Transcrição automática
+
 🎬 Vídeo	.mp4, .avi, .mov, .mkv, .wmv	Extração e transcrição de áudio
+
 🧠 Capacidades da IA
+
 Aprendizado Automático: Processa automaticamente todos os arquivos
 
 Busca Semântica: Encontra respostas baseadas no significado
@@ -53,6 +61,7 @@ Atualização em Tempo Real: Aprende novos arquivos sem reiniciar
 Estatísticas Detalhadas: Monitora progresso e tipos processados
 
 📦 Instalação
+
 Pré-requisitos
 
 1. Clone o Repositório
