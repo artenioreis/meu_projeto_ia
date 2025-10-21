@@ -65,6 +65,7 @@ Estatísticas Detalhadas: Monitora progresso e tipos processados
 Pré-requisitos
 
 1. Clone o Repositório
+   
 git clone https://github.com/seu-usuario/adam-ia-multimodal.git
 cd adam-ia-multimodal
 
@@ -80,6 +81,7 @@ pip install -r requirements.txt
 4. Instalação Automática (Recomendado)
 bash
 python instalar_multimodal.py
+
 🎮 Uso
 Iniciar a Adam
 bash
@@ -89,11 +91,12 @@ Acesse a interface web: http://localhost:5000
 Uso Rápido via Terminal
 bash
 python teste_multimodal.py
+
 Estrutura Básica
-text
+]
 meu_projeto_ia/
-├── 📁 dados/                 # Pasta com arquivos para aprender
-├── 📁 templates/            # Interface web
+├── 📁 dados/               # Pasta com arquivos para aprender
+├── 📁 templates/           # Interface web
 ├── 📁 static/              # CSS, JavaScript
 ├── app.py                  # Aplicação principal Flask
 ├── modelo_ia.py           # Classe Adam Multimodal
