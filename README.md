@@ -1,10 +1,14 @@
 🤖 Adam - IA Multimodal de Aprendizado
-<div align="center">
+
     
 https://img.shields.io/badge/Python-3.8+-blue.svg
+
 https://img.shields.io/badge/Flask-2.3+-green.svg
+
 https://img.shields.io/badge/Machine%2520Learning-Scikit--learn-orange.svg
+
 https://img.shields.io/badge/NLP-NLTK-yellow.svg
+
 https://img.shields.io/badge/Multimodal-IA-purple.svg
 
 
@@ -296,7 +300,7 @@ NLTK - Processamento de Linguagem Natural
 
 Python - Linguagem de programação
 
-<div align="center">
+
 ⭐ Se este projeto foi útil, deixe uma estrela no GitHub!
 
 Reportar Bug • Solicitar Feature
