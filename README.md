@@ -21,6 +21,7 @@ Características • Instalação • Uso • Formatos Suportados • API • Es
 A Adam é uma IA de aprendizado multimodal que processa automaticamente diversos tipos de arquivos para construir seu conhecimento. Ela utiliza Processamento de Linguagem Natural (NLP) e algoritmos de similaridade para responder perguntas baseadas no conteúdo aprendido.
 
 🎯 Destaques
+
 ✅ Aprendizado Automático - Aprende com qualquer arquivo na pasta dados/
 
 🔄 Processamento Multimodal - Suporte a documentos, áudio, vídeo e mais
@@ -32,6 +33,7 @@ A Adam é uma IA de aprendizado multimodal que processa automaticamente diversos
 📊 Estatísticas Detalhadas - Monitoramento do conhecimento adquirido
 
 🚀 Características
+
 📁 Formatos Suportados
 Categoria	Formatos	Descrição
 📄 Documentos	.txt, .docx, .pdf, .rtf, .odt	Processamento de texto completo
